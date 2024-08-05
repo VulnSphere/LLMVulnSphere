@@ -1,8 +1,8 @@
 from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
 
-OPENAI_API_KEY = 'sk-ef817b356c5b428c913d990c08654e23'
+OPENAI_API_KEY = 'sk-8GtKGlpT3NNTLAfZj3BX3BffKGlLNZwwT6BmhoGF1UG41ePU'
 OPENAI_API_BASE = 'http://aisec.today:22234/v1/'
-MODEL = "gpt-4o"
+MODEL = "gpt-4o-mini"
 
 config_list = [{'model': MODEL, 'api_key': OPENAI_API_KEY, 'base_url': OPENAI_API_BASE}]
 

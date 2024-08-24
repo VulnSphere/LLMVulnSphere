@@ -1,3 +1,5 @@
+CVE-2024-42587
+
 version: 2.0.3
 
 When load the template from file or from string, The SSTI will be triggered.

